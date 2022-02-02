@@ -1,0 +1,389 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0%;
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+  cursor: pointer;
+  /* margin-right: auto; */
+}
+
+.links {
+  list-style: none;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.links li {
+  display: inline-block;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+.links li a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: #738486;
+}
+
+.links li a:hover {
+  color: #163235;
+}
+
+button {
+  /* margin-top: 21px; */
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: #4468e2;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #628ae2;
+}
+
+#bg {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  background-image: url(/wallpaperflare1.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 10% 0px;
+}
+
+#bg_title {
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 600;
+  padding-bottom: 0px;
+}
+
+#lorem {
+  color: white;
+  text-align: center;
+  font-family: poppins;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+/* #bar{
+    margin-right: 100px;
+    margin-left: 100px;
+} */
+
+.flex {
+  display: flex;
+  margin: 0px 22%;
+  background-color: white;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  color: black;
+  justify-content: space-around;
+  opacity: 0.7;
+}
+
+#input1 {
+  flex: 40%;
+  margin: 15px;
+  padding-top: 8px;
+  border-right: 1px solid grey;
+  width: 200px;
+}
+
+#input2 {
+  flex: 15%;
+  margin: 15px;
+  padding-top: 10px;
+  border-right: 2px solid grey;
+  width: 100px;
+}
+
+#input3 {
+  flex: 15%;
+  margin: 15px;
+  padding-top: 10px;
+  width: 100px;
+}
+
+#input4 {
+  flex: 30%;
+  margin-right: 15px;
+}
+
+label {
+  color: black;
+  font-size: 14px;
+}
+
+input {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+#butt_explore {
+  margin-top: 20px;
+  background-color: #4468e2;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  font-size: 16px;
+  width: 150px;
+}
+
+#butt_explore:hover {
+  background-color: #628ae2;
+}
+
+form {
+  display: flex;
+}
+
+form div input {
+  border: none;
+}
+
+#feature {
+  padding-top: 20px;
+}
+
+#feature_col {
+  padding: 10px;
+}
+
+#feature_icon {
+  height: 70px;
+  width: auto;
+}
+
+.card {
+  border: none;
+  box-shadow: 7px 7px 15px whitesmoke;
+  margin: 10px;
+  margin-top: 50px;
+}
+
+.card-title {
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+  padding-top: 8px;
+}
+
+.card-text {
+  color: black;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+#recommendation{
+    background-color: #f0f4fc;
+    margin: 30px 0px;
+}
+
+#reco_title{
+padding: 40px;
+  color: black;
+  text-align: center;
+  font-weight: 600;
+
+}
+
+#dest{
+    margin: 0% 10%;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+#dest1{
+    border-bottom: 4px solid black;
+}
+
+.col{
+    color: black;
+}
+
+/* .nav-link{
+    background-color: none !important;
+    border-bottom: 4px solid black !important;
+} */
+
+.card-img-top{
+    border-radius: 30px! important;
+    padding: 15px;
+}
+
+
+
+#rec_ul{
+    margin-left: -40px;
+}
+
+#rec_icon{
+    height: 32px;
+    width: auto;
+    margin-right: 5px;
+    align-items: flex-start;
+}
+
+#night{
+    color: black;
+}
+
+#blogs {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: black;
+}
+
+#blog_title {
+  margin: 20px;
+  color: black;
+  text-align: center;
+  font-weight: 600;
+}
+
+#blog_row {
+  text-align: center;
+  color: black;
+  margin-top: 70px;
+}
+
+#blog_col1 {
+  background: url(/ele.jpeg);
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 10% 10%;
+  /* height: 150px;
+    width: 100%;  */
+  border-radius: 15px;
+}
+
+#blog_col2_row1 {
+  background: url(/plane.jpg);
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10% 10%;
+  /* height: 150px;
+    width: 100%;  */
+  border-radius: 15px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+#blog_col2_row2 {
+  background: url(/palace2.jpg);
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10% 10%;
+  /* height: 150px;
+    width: 100%;  */
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+#customers {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: black;
+}
+
+#cust_title {
+  margin: 20px;
+  color: black;
+  text-align: center;
+  font-weight: 600;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+ul li {
+  color: black;
+  text-decoration: none;
+}
+
+#card_text {
+  color: black;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-bottom: 50px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#profile {
+  padding-right: 15px;
+  margin-left: -20px;
+  margin-top: -10px;
+}
+
+#name {
+  color: grey;
+  font-weight: 400;
+}
+
+#name strong {
+  color: black;
+  font-weight: 500;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e1e8f8;
+  border-radius: 15px;
+  padding-bottom: 20px;
+  padding: 35px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+footer p {
+  color: black;
+}
+
+footer links li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+#f_icon {
+  height: 40px;
+  width: 40x;
+  padding: 5px;
+}
