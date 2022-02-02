@@ -197,31 +197,30 @@ form div input {
   font-size: 12px;
 }
 
-#recommendation{
-    background-color: #f0f4fc;
-    margin: 30px 0px;
+#recommendation {
+  background-color: #f0f4fc;
+  margin: 30px 0px;
 }
 
-#reco_title{
-padding: 40px;
+#reco_title {
+  padding: 40px;
   color: black;
   text-align: center;
   font-weight: 600;
-
 }
 
-#dest{
-    margin: 0% 10%;
-    border-bottom: 1px solid grey;
-    text-align: center;
+#dest {
+  margin: 0% 10%;
+  border-bottom: 1px solid grey;
+  text-align: center;
 }
 
-#dest1{
-    border-bottom: 4px solid black;
+#dest1 {
+  border-bottom: 4px solid black;
 }
 
-.col{
-    color: black;
+.col {
+  color: black;
 }
 
 /* .nav-link{
@@ -229,26 +228,24 @@ padding: 40px;
     border-bottom: 4px solid black !important;
 } */
 
-.card-img-top{
-    border-radius: 30px! important;
-    padding: 15px;
+.card-img-top {
+  border-radius: 30px !important;
+  padding: 15px;
 }
 
-
-
-#rec_ul{
-    margin-left: -40px;
+#rec_ul {
+  margin-left: -40px;
 }
 
-#rec_icon{
-    height: 32px;
-    width: auto;
-    margin-right: 5px;
-    align-items: flex-start;
+#rec_icon {
+  height: 32px;
+  width: auto;
+  margin-right: 5px;
+  align-items: flex-start;
 }
 
-#night{
-    color: black;
+#night {
+  color: black;
 }
 
 #blogs {
