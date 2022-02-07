@@ -65,7 +65,7 @@ button:hover {
   height: 100%;
   width: 100%;
   border-radius: 15px;
-  background-image: url(/wallpaperflare1.jpg);
+  background-image: url(/img/wallpaperflare1.jpg);
   background-position: center center;
   background-size: cover;
   padding: 10% 0px;
@@ -268,7 +268,7 @@ form div input {
 }
 
 #blog_col1 {
-  background: url(/ele.jpeg);
+  background: url(/img/ele.jpeg);
   background-position: center center;
   background-size: cover;
   color: white;
@@ -281,7 +281,7 @@ form div input {
 }
 
 #blog_col2_row1 {
-  background: url(/plane.jpg);
+  background: url(/img/plane.jpg);
   background-position: center center;
   background-size: cover;
   color: white;
@@ -296,7 +296,7 @@ form div input {
 }
 
 #blog_col2_row2 {
-  background: url(/palace2.jpg);
+  background: url(/img/palace2.jpg);
   background-position: center center;
   background-size: cover;
   color: white;
